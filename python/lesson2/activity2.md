@@ -1,11 +1,10 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 2 - All of the lights.
+# 활동 2 - 모든 조명을 켜라.
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
-## Step 1
-Place the **redstone lamps** in the light fittings at the specified heights by changing the **second** coordinate 
-of the **second** parameter in the `||blocks: place block at position||` command.
+## 1단계
+`||blocks: place block at position||` 명령의 **두 번째** 매개변수의 **두 번째** 좌표를 변경하여 지정된 높이에 **레드스톤 램프**를 조명기구에 배치하세요.

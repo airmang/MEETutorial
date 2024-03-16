@@ -1,13 +1,12 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 4 - Getting across.
+# 활동 4 - 건너가기.
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
-## Step 1
-Write some code to construct a line of floor made out of five **plank oak** blocks to get over to the other side. You will need to change the **first** and **second** coordinate of the **second**
-parameter in the `||blocks: place block at position||` commands. You must make sure that you build at floor height.
+## 1단계
+다른 쪽으로 건너갈 수 있도록 **참나무 판자** 블록으로 만든 바닥선을 구축하는 코드를 작성하세요. `||blocks: place block at position||` 명령의 **두 번째** 매개변수에서 **첫 번째**와 **두 번째** 좌표를 변경해야 합니다. 바닥 높이에서 건설하는 것을 확실히 해야 합니다.
 ### ~ tutorialhint 
-Try using negative numbers as the coordinates.
+좌표로 음수를 사용해 보세요.
