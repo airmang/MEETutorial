@@ -1,13 +1,12 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 1 - Place the correct block.
+# 활동 1 - 올바른 블록 놓기
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
-## Step 1
-Place the **grass** and **brick** blocks in the designated areas by using the `||blocks: place block at position||` command. Change the first parameter to the required block type 
-using the code completion tool to select the required block by starting to type its name and selecting the correct option.
+## 1단계
+**잔디**와 **벽돌** 블록을 지정된 영역에 배치하세요. `||blocks: place block at position||` 명령어를 사용하고, 첫 번째 매개변수를 필요한 블록 유형으로 변경하세요. 코드 완성 도구를 사용하여 그 이름을 입력하고 올바른 옵션을 선택할 수 있습니다.
 ### ~ tutorialhint 
-If a block is placed incorrectly use the try again button, to clear and restart the activity, by talking to the NPC. 
+블록이 잘못 배치되었을 경우, NPC와 대화하여 '다시 시도' 버튼을 사용해 활동을 초기화하고 다시 시작하세요.
