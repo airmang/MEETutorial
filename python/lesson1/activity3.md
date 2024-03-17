@@ -5,13 +5,13 @@
 player.say("Hi")
 ```
 
-# Activity 3 - What is the correct number?
+# 활동 3 - 올바른 숫자는 무엇일까요?
 
-## Step 1
-Look at each of the tv monitors, calculate the sums using code.
-To use the mathematical value of numbers in a command, quotes should **not** be used. For example:
+## 1단계
+TV 모니터를 살펴보고 코드를 사용하여 합계를 계산하세요.
+명령어에서 숫자의 수학적 값을 사용하려면 따옴표를 **사용하지 않아야** 합니다. 예를 들어:
 ```python
 player.say(1+1) 
 ```
 
-When this code is run it gives the result **2**. Work out the correct answers of the sums on the tv monitors and select the corresponding buttons.
+이 코드를 실행하면 결과는 **2**입니다. TV 모니터에 있는 합의 정답을 계산하고 해당하는 버튼을 선택하세요.
