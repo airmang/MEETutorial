@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 3 - Home reconstruction. 
+# 활동 3 - 집 재건축.
 
 ```python
 agent.turn(LEFT_TURN)
@@ -11,32 +11,30 @@ while True:
       pass
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent follow the guideline of Redstone dust and place blocks to its left to make the small house's foundation.
-Use **two** `||loops:while||` loops with **two** sequences, one for the straight sections and one for the outside corners. 
+## 단계 1
+**부분 1:** 에이전트가 레드스톤 더스트의 가이드라인을 따라가며 왼쪽에 블록을 놓아 작은 집의 기초를 만들도록 코드를 작성하세요.
+직선 구간과 외부 코너에 대한 **두 개의** 순서를 가진 **두 개의** `||loops:while||` 반복문을 사용하세요.
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent build the foundation of a larger house. Write a additional `||loops:while||` loop with 
-an additional sequences for the inside corners.  
+## 단계 2
+**부분 2:** 더 큰 집의 기초를 만들도록 코드에 추가하세요. 내부 코너에 대한 추가적인 순서를 가진 추가적인 `||loops:while||` 반복문을 작성하세요.
 ### ~ tutorialhint 
-When writing the sequence for the inside corners it needs to include a part where 
-the Agent needs to move one block beyond the outline to place a block, and then move back. 
+내부 코너의 순서를 작성할 때, 에이전트가 윤곽선을 한 블록 넘어서 블록을 놓고 다시 돌아가야 하는 부분을 포함해야 합니다.
 
 ```template
-//Replace the lines below with your code #    
-//While loop 1 with an Agent detect condition |Part 1
-//Make the Agent place a block to its left    |Part 1       
-//Make the Agent move forward                 |Part 1 
-//While loop 2 with an Agent detect condition |Part 1
+//아래 줄을 귀하의 코드로 대체하세요 #    
+//에이전트 감지 조건이 있는 While 반복문 1 |부분 1
+//에이전트가 왼쪽에 블록을 설치하게 합니다  |부분 1       
+//에이전트가 전진하게 합니다               |부분 1 
+//에이전트 감지 조건이 있는 While 반복문 2 |부분 1
 agent.turn(LEFT_TURN)
-//Make the Agent move forward                 |Part 1
-//End of while loop 2
-//While loop 3 with an Agent detect condition         |Part 2
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move forward                         |Part 2
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move back                            |Part 2
-//Make the Agent turn right                           |Part 2                 
-//End of while loop 3
-//End of while loop 1                        
+//에이전트가 전진하게 합니다               |부분 1
+//While 반복문 2의 끝
+//에이전트 감지 조건이 있는 While 반복문 3         |부분 2
+//에이전트가 왼쪽에 블록을 설치하게 합니다        |부분 2        
+//에이전트가 전진하게 합니다                       |부분 2
+//에이전트가 왼쪽에 블록을 설치하게 합니다        |부분 2        
+//에이전트가 뒤로 이동하게 합니다                  |부분 2
+//에이전트가 오른쪽으로 회전하게 합니다           |부분 2                 
+//While 반복문 3의 끝
+//While 반복문 1의 끝                        
 ```

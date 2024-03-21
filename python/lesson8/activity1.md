@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 - One row at a time. 
+# 활동 1 - 한 줄씩 처리하기.
 
 ```python
 agent.till(RIGHT)
@@ -8,42 +8,40 @@ agent.move(FORWARD, 5)
 agent.set_slot(1)
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent move forward while tilling and planting saplings, on the **grass** blocks, to its left. Example of 
-function structure: 
+## 단계 1
+**부분 1:** 에이전트가 전진하면서 왼쪽의 **풀** 블록에서 갈아엎고, 묘목을 심도록 코드를 작성하세요. 함수 구조의 예시:
 ```python
 def function_name():
     agent.till(RIGHT)
 ```
 
 ### ~ tutorialhint 
-Remember to describe, in a comment, what your function does.  
+함수가 무엇을 하는지 주석으로 설명하는 것을 기억하세요.
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent use fertilizer on the saplings, **6** times each.
+## 단계 2
+**부분 2:** 에이전트가 묘목에 **6** 번씩 비료를 사용하도록 코드에 추가하세요.
 ### ~ tutorialhint 
-The Agent has fertilizer in its **second** inventory slot. Switch between the Agent's **first** and **second** slots using the `||agent:set active slot||`
-command.  
+에이전트의 **두 번째** 인벤토리 슬롯에 비료가 있습니다. `||agent:set active slot||` 명령을 사용하여 에이전트의 **첫 번째**와 **두 번째** 슬롯 사이를 전환하세요.
 
 ```template
-//Replace with your functions below #
-//Replace with comment about function below   |Part 1   
-//Declare your function                       |Part 1
-//Set the Agent's inventory slot to 1                 |Part 2
-//Make the Agent till to its left             |Part 1
-//Make the Agent place a sapling to its left  |Part 1
-//Set the Agent's inventory slot to 2                 |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Replace the lines below with your code #    
+//아래에 당신의 함수를 대체하세요 #
+//아래에 함수에 대한 주석을 대체하세요          |부분 1   
+//함수를 선언하세요                             |부분 1
+//에이전트의 인벤토리 슬롯을 1로 설정하세요              |부분 2
+//에이전트가 왼쪽으로 갈아엎게 하세요            |부분 1
+//에이전트가 왼쪽에 묘목을 심게 하세요           |부분 1
+//에이전트의 인벤토리 슬롯을 2로 설정하세요              |부분 2
+//에이전트가 왼쪽에 비료를 놓게 하세요                   |부분 2
+//에이전트가 왼쪽에 비료를 놓게 하세요                   |부분 2
+//에이전트가 왼쪽에 비료를 놓게 하세요                   |부분 2
+//에이전트가 왼쪽에 비료를 놓게 하세요                   |부분 2
+//에이전트가 왼쪽에 비료를 놓게 하세요                   |부분 2
+//에이전트가 왼쪽에 비료를 놓게 하세요                   |부분 2
+//아래 줄을 귀하의 코드로 대체하세요 #    
 agent.move(FORWARD, 1)
-//Call your function                          |Part 1
-//Make the Agent move forward                 |Part 1
-//Call your function                          |Part 1
-//Make the Agent move forward                 |Part 1
-//Call your function                          |Part 1                 
+//함수를 호출하세요                           |부분 1
+//에이전트가 전진하게 하세요                  |부분 1
+//함수를 호출하세요                           |부분 1
+//에이전트가 전진하게 하세요                  |부분 1
+//함수를 호출하세요                           |부분 1                 
 ```

@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 3 - Pasture of trees. 
+# 활동 3 - 나무의 목장.
 
 ```python
 agent.turn(RIGHT_TURN)
@@ -18,44 +18,44 @@ elif:
     pass
 ```
 
-## Step 1
-**Part 1:** Write three new functions with different sequences, one to make the Agent **move forward**, one to **turn left**, and one to **turn right**. 
-Then use these functions in a `||loops:for||` loop to make the Agent pass over every block in the area, row by row, until it reaches the gold block.
+## 단계 1
+**부분 1:** 에이전트가 **전진하게 하는**, **왼쪽으로 돌게 하는**, 그리고 **오른쪽으로 돌게 하는** 세 가지 다른 순서의 새 함수를 작성하세요.
+그런 다음 이 함수들을 `||loops:for||` 반복문에서 사용하여 에이전트가 금 블록에 도달할 때까지 지역의 모든 블록을 행 단위로 지나가게 만드세요.
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent till the grass blocks that it passes over and plant a sapling.
-Do this by adding an `||logic:if else||` conditional, that inspects for grass blocks, in the function that moves the Agent forward. 
+## 단계 2
+**부분 2:** 에이전트가 지나가는 풀 블록을 갈아엎고 묘목을 심게 코드를 추가하세요.
+이는 에이전트를 전진시키는 함수 내에 풀 블록을 감지하는 `||logic:if else||` 조건문을 추가함으로써 수행됩니다.
 
 ```template
-//Place your functions below #  
-//Add to the comment below, as it has now changed             |Part 2
-//Replace with comment about function below           |Part 1    
-//Declare function 1                                  |Part 1
-//For loop 1 set to 9                                 |Part 1
-//If else conditional with Agent inspect condition            |Part 2
-//Add function that plants saplings                           |Part 2
-//Place the command below in the else part of the conditional |Part 2
-//Make the Agent move forward                         |Part 1
-//End of loop 1
-//Replace with comment about function below           |Part 1    
-//Declare function 2                                  |Part 1
-//Make the Agent turn right                           |Part 1
-//Make the Agent move forward                         |Part 1
-//Make the Agent turn right                           |Part 1
-//Replace with comment about function below           |Part 1    
-//Declare function 3                                  |Part 1
-//Make the Agent turn left                            |Part 1
+//아래에 당신의 함수를 배치하세요 #  
+//아래에 주석을 추가하세요, 이제 변경되었습니다            |부분 2
+//아래에 함수에 대한 주석을 대체하세요             |부분 1    
+//함수 1을 선언하세요                              |부분 1
+//For 반복문 1을 9로 설정하세요                   |부분 1
+//에이전트 감지 조건이 있는 If else 조건문                 |부분 2
+//묘목을 심는 함수 추가                                     |부분 2
+//조건문의 else 부분에 아래 명령을 배치하세요               |부분 2
+//에이전트가 전진하게 하세요                       |부분 1
+//반복문 1의 끝
+//아래에 함수에 대한 주석을 대체하세요             |부분 1    
+//함수 2를 선언하세요                              |부분 1
+//에이전트가 오른쪽으로 돌게 하세요                |부분 1
+//에이전트가 전진하게 하세요                       |부분 1
+//에이전트가 오른쪽으로 돌게 하세요                |부분 1
+//아래에 함수에 대한 주석을 대체하세요             |부분 1    
+//함수 3을 선언하세요                              |부분 1
+//에이전트가 왼쪽으로 돌게 하세요                  |부분 1
     agent.move(FORWARD, 1)
-//Make the Agent turn left                            |Part 1
-//Replace with comment about function below                   |Part 2 
-//Declare function 4                                          |Part 2
-//Make the Agent move forward                                 |Part 2
-//Make the till back                                          |Part 2
-//Make the place back                                         |Part 2
-//Replace the lines below with your code #
-//For loop 2 set to 4                                 |Part 1
-//Call function to make Agent move forward            |Part 1
-//Call function to make Agent turn right              |Part 1
-//Call function to make Agent move forward            |Part 1
-//Call function to make Agent turn left               |Part 1                       
+//에이전트가 왼쪽으로 돌게 하세요                  |부분 1
+//아래에 함수에 대한 주석을 대체하세요                     |부분 2 
+//함수 4를 선언하세요                                        |부분 2
+//에이전트가 전진하게 하세요                               |부분 2
+//뒤를 갈아엎게 하세요                                      |부분 2
+//뒤에 묘목을 심게 하세요                                   |부분 2
+//아래 줄을 귀하의 코드로 대체하세요 #
+//For 반복문 2를 4로 설정하세요                   |부분 1
+//에이전트가 전진하게 하도록 함수를 호출하세요     |부분 1
+//에이전트가 오른쪽으로 돌게 하는 함수를 호출하세요 |부분 1
+//에이전트가 전진하게 하도록 함수를 호출하세요     |부분 1
+//에이전트가 왼쪽으로 돌게 하는 함수를 호출하세요  |부분 1                       
 ```

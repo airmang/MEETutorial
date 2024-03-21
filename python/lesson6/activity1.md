@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 -  Stop and go.
+# 활동 1 - 멈춤과 진행.
 
 ```python
 loops.pause(2000)
@@ -12,31 +12,31 @@ if True:
 agent.detect(AgentDetection.BLOCK, FORWARD)
 ```
 
-## Step 1
-**Part 1:** Write some code so that the Agent will only move when there **is** a block on its left side. 
-Use a `||agent: agent detect||` command for the condition: 
+## 1단계
+**1부:** 에이전트가 왼쪽에 블록이 **있을 때만** 이동하도록 코드를 작성하세요.
+조건에 `||agent: agent detect||` 명령을 사용하세요: 
 ```python
 agent.detect(AgentDetection.BLOCK, LEFT)
 ```
 
-## Step 2
-**Part 2:** Edit the code so that the Agent moves when there **no** block to its left. 
-Do this by adding a **not** operator before the condition. 
+## 2단계
+**2부:** 에이전트가 왼쪽에 블록이 **없을 때** 이동하도록 코드를 수정하세요.
+조건 앞에 **not** 연산자를 추가함으로써 이를 수행하세요.
 
-## Step 3
-**Part 3:** Make the Agent move again after the `||loops:pause||` command to reach the last gold block.
+## 3단계
+**3부:** 마지막 금 블록에 도달하도록 `||loops:pause||` 명령 후에 에이전트를 다시 이동시키세요.
 
 ### ~ tutorialhint
-**1000** ms is **1** second.
+**1000** ms는 **1**초입니다.
 
 ```template
-//Replace the lines below with your code #    
-//for loop set to 7                            |Part 1
-//Add the operator NOT to the condition below          |Part 2 
-//if conditional with an Agent detect condition|Part 1
-//Make the Agent move forward                  |Part 1
-//if conditional with an Agent detect condition                |Part 3
+//아래 줄을 코드로 대체하세요 #    
+//반복 7로 설정                            |1부
+//아래 조건에 NOT 연산자 추가          |2부 
+//Agent detect 조건이 있는 if 조건문|1부
+//에이전트를 앞으로 이동시킴                  |1부
+//Agent detect 조건이 있는 if 조건문                |3부
 loops.pause(2000)
-//Make the Agent move forward                                  |Part 3
-//End of loop
+//에이전트를 앞으로 이동시킴                                  |3부
+//반복 끝
 ```

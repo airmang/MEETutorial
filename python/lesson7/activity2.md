@@ -1,6 +1,6 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 2 - Firebreak. 
+# 활동 2 - 방화선.
 
 ```python
 agent.turn(LEFT_TURN)
@@ -11,21 +11,21 @@ while True:
       pass
 ```
 
-## Step 1
-Write some code to make the Agent move forward when there is Redstone dust in front of it.
-While moving forward the Agent should make a one-block high wall to its left.
-When it encounters a change in terrain height the Agent needs to move up and continue the wall.
+## 단계 1
+에이전트가 앞에 레드스톤 더스트가 있을 때 전진하게 하는 코드를 작성하세요.
+전진하는 동안 에이전트는 왼쪽에 한 블록 높이의 벽을 만들어야 합니다.
+지형 높이가 바뀔 때 에이전트는 위로 올라가서 벽을 계속 이어가야 합니다.
 
 ```template
-//Replace the lines below with your code #
-//While loop 1 with an Agent detect Redstone condition 
-//While loop 2 with an Agent detect block condition 
+//아래 줄을 귀하의 코드로 대체하세요 #
+//레드스톤 감지 조건이 있는 While 반복문 1 
+//블록 감지 조건이 있는 While 반복문 2 
 agent.place(LEFT)
-//Make the Agent move up                            
-//Make the Agent place a block to its left         
-//Make the Agent move forward
-//End of while loop 2
-//Make the Agent place a block to its left         
-//Make the Agent move forward
-//End while loop 1                         
+//에이전트가 위로 올라가게 합니다                            
+//에이전트가 왼쪽에 블록을 설치하게 합니다         
+//에이전트가 전진하게 합니다
+//While 반복문 2의 끝
+//에이전트가 왼쪽에 블록을 설치하게 합니다         
+//에이전트가 전진하게 합니다
+//While 반복문 1의 끝                         
 ```

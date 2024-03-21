@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 - Water barrier. 
+# 활동 1 - 물 장애물.
 
 ```python
 agent.turn(LEFT_TURN)
@@ -11,20 +11,20 @@ while True:
       pass
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent move forward when there is Redstone dust in front of it. 
+## 단계 1
+**부분 1:** 에이전트가 앞에 레드스톤 더스트가 있을 때 전진하도록 코드를 작성하세요.
 
-## Step 2 
-**Part 2:** Add a sequence to the code so that the Agent places a two-block high wall to its right as it moves. 
+## 단계 2
+**부분 2:** 에이전트가 이동하면서 오른쪽에 두 블록 높이의 벽을 설치하는 시퀀스를 코드에 추가하세요.
 ### ~ tutorialhint
-You do not have to give the Agent any blocks, it already has the required blocks in its inventory.  
+에이전트에게 블록을 줄 필요가 없습니다. 에이전트의 인벤토리에 이미 필요한 블록이 있습니다.
 ```template
-//Replace the lines below with your code #     
-//While loop with an Agent detect condition |Part 1
-//Make the Agent place a block to its right         |Part 2
-//Make the Agent move up                            |Part 2
-//Make the Agent place a block to its right         |Part 2
-//Make the Agent move back down                     |Part 2:
+//아래 줄을 귀하의 코드로 대체하세요 #     
+//에이전트 감지 조건이 있는 While 반복문 |부분 1
+//에이전트가 오른쪽에 블록을 설치하게 합니다       |부분 2
+//에이전트가 위로 이동하게 합니다                  |부분 2
+//에이전트가 오른쪽에 블록을 설치하게 합니다       |부분 2
+//에이전트가 다시 아래로 이동하게 합니다           |부분 2:
     agent.move(FORWARD, 1)
-//End of while loop                                
+//While 반복문의 끝                                
 ```

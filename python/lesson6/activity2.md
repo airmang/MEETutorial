@@ -1,6 +1,6 @@
 ### @explicitHints true
  
-# Activity 2 -  Is it left, or right? 
+# 활동 2 - 왼쪽인가, 오른쪽인가?
 
 ```python
 agent.inspect(AgentInspection.BLOCK, FORWARD)
@@ -12,35 +12,34 @@ if True:
       pass
 ```
 
-## Step 1
-**Part 1:** Write some code, using an `||logic:if else||` conditional, to make the Agent turn left when it reaches the sign and
-then move forward onto the gold block. Use an `||agent:agent inspect||` command as the condition and compare it to the variable **left**.
-The `||agent:agent inspect||` command looks like: 
+## 1단계
+**1부:** 에이전트가 표지판에 도달했을 때 왼쪽으로 돌아 금 블록으로 이동하도록 `||logic:if else||` 조건문을 사용하여 코드를 작성하세요. 조건으로 `||agent:agent inspect||` 명령을 사용하고 이를 변수 **left**와 비교하세요.
+`||agent:agent inspect||` 명령은 다음과 같습니다:
 ```python
 agent.inspect(AgentInspection.BLOCK, FORWARD)
 ```
-Use the variables already provided in your code: left = BLUE_GLAZED_TERRACOTTA, right = PINK_GLAZED_TERRACOTTA
+코드에 이미 제공된 변수를 사용하세요: left = BLUE_GLAZED_TERRACOTTA, right = PINK_GLAZED_TERRACOTTA
 ### ~ tutorialhint 
-To check if two values are equal, use **==**.
+두 값이 같은지 확인하려면 **==**을 사용하세요.
 
-## Step 2
-**Part 2:** Edit the code so that the Agent turns in both directions until it reaches the gold block. Do this by adding an **elif**
-conditional in between the **if** and **else** parts.
+## 2단계
+**2부:** 에이전트가 금 블록에 도달할 때까지 양쪽 방향으로 돌 수 있도록 코드를 편집하세요. 이를 위해 **if**와 **else** 부분 사이에 **elif**
+조건문을 추가하세요.
 ### ~ tutorialhint 
-Use the **elif** conditional with an `||agent:agent inspect||` command
-as the condition and compare it to the variable **right**.
+**elif** 조건문을 `||agent:agent inspect||` 명령의
+조건으로 사용하고 이를 변수 **right**와 비교하세요.
 
 ```template
 left = BLUE_GLAZED_TERRACOTTA
 right = PINK_GLAZED_TERRACOTTA
-//Replace the lines below with your code #
-//Change value of loop below from 9 to 21                     |Part 2
-//for loop set to 9                                   |Part 1
-//if else conditional with an Agent inspect condition |Part 1
+//아래 줄을 코드로 대체하세요 #
+//아래 반복문의 값을 9에서 21로 변경하세요                     |2부
+//반복 9로 설정                                   |1부
+//Agent inspect 조건이 있는 if else 조건문 |1부
 agent.turn(LEFT_TURN)
-//elif conditional with an Agent inspect condition            |Part 2
-//Make the agent turn right                                   |Part 2
-//else part of the if else conditional                |Part 1
-//Make the agent move forward                         |Part 1
-//End of loop                                         |Part 1
+//Agent inspect 조건이 있는 elif 조건문            |2부
+//에이전트가 오른쪽으로 회전하도록 하세요                                   |2부
+//if else 조건문의 else 부분                |1부
+//에이전트가 앞으로 이동하도록 하세요                         |1부
+//반복 끝                                         |1부
 ```
