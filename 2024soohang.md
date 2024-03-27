@@ -1,12 +1,13 @@
 ### @explicitHints true
 ### @hideIteration true 
-# 건물을 수리해라
+# 활동 1 - 건물을 수리해라
 
 ```python
-player.say(":)")
-agent.move(FORWARD, 1)
-agent.turn(LEFT_TURN)
-agent.place(FORWARD)
+player.say()
+agent.move()
+agent.turn()
+agent.place()
+agent.set_item()
 agent.set_item(agent.inspect(AgentInspection.BLOCK, FORWARD), 1, 1)
 if True:
     pass
