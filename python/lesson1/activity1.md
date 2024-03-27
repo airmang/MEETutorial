@@ -8,7 +8,7 @@ agent.move()
 agent.turn()
 agent.place()
 agent.set_item()
-agent.inspect()
+agent.set_item(agent.inspect(AgentInspection.BLOCK, FORWARD), 1, 1)
 if True:
     pass
 if True:
