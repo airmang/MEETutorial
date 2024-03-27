@@ -1,16 +1,23 @@
-### @explicitHints true
-### @hideIteration true 
+@explicitHints true
+@hideIteration true
+건물을 수리해라
+player.say(":)")
+agent.move(FORWARD, 1)
+agent.turn(LEFT_TURN)
+agent.place(FORWARD)
+agent.set_item(agent.inspect(AgentInspection.BLOCK, FORWARD), 1, 1)
+if True:
+    pass
+if True:
+    pass
+else:
+    pass
+while False:
+    pass
+for index in range(4):
+    pass
+수행평가
+agent에게 명령을 내려 건물을 수리하세요.
 
-
-# 활동 1 - 어느 것이 맞나요?
-
-## 1단계
-컴퓨터 모니터에 적힌 명령어 중 어느 것이 정확하게 **"Hi"**를 채팅에 표시하는지 확인하세요.
-게임에서 코드가 올바르게 실행되면 모니터의 오른쪽에 있는 마우스 버튼을 누르세요.
-도움이 필요하면 힌트를 클릭하세요.
-
-### ~ 튜토리얼힌트 
-Minecraft python에서의 명령어 구조는 다음과 같습니다:
-```python
-command_group.command_name()
-```
+~ tutorialhint
+||agent.에이전트가 블록을 검사: 블록kind 방향 direction||명령어는 조사한 블록의 값을 반환합니다.
