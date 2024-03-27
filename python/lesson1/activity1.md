@@ -1,28 +1,23 @@
-### @explicitHints true
 ### @hideIteration true 
-# 활동 1 - 건물을 수리해라
 
-```python
-player.say()
-agent.move()
-agent.turn()
-agent.place()
-agent.set_item()
-agent.set_item(agent.inspect(AgentInspection.BLOCK, FORWARD), 1, 1)
-if True:
-    pass
-if True:
-    pass
-else:
-    pass
-while False:
-    pass
-for index in range(4):
-    pass
-```
 
-## 수행평가
-agent에게 명령을 내려 건물을 수리하세요.
+# Activity 1 - Which one is right?
+# 활동 1 - 어느 것이 맞나요?
+
+## Step 1
+Check which one of the commands written on the computer monitors is correct and shows **"Hi"** in the chat when run.
+Press the mouse button on the right side of the monitor in the game if the code runs correctly.
+Click on the hints if you need help.
+## 1단계
+컴퓨터 모니터에 적힌 명령어 중 어느 것이 정확하게 **"Hi"**를 채팅에 표시하는지 확인하세요.
+게임에서 코드가 올바르게 실행되면 모니터의 오른쪽에 있는 마우스 버튼을 누르세요.
+도움이 필요하면 힌트를 클릭하세요.
 
 ### ~ tutorialhint 
-`||agent.에이전트가 블록을 검사: 블록kind 방향 direction||`명령어는 조사한 블록의 값을 반환합니다.
+The command structure in Minecraft python is:
+### ~ 튜토리얼힌트 
+Minecraft python에서의 명령어 구조는 다음과 같습니다:
+```python
+command_group.command_name()
+```
+```
