@@ -6,10 +6,10 @@
 ### @explicitHints 1
 
 
-# Program the Agent to move along the turtle tracks!
+# 거북이 트랙을 따라 에이전트를 움직이도록 프로그램하세요!
 
-## Step 1
-Move the Agent along the turtle tracks by using an ``||agent: agent move forward||`` block to the gates. When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
+## 단계 1
+``||agent: agent move forward||`` 블록을 사용하여 거북이 트랙을 따라 에이전트를 움직이세요. 완료되면 **Play** 버튼을 눌러 코드를 컴파일하세요. 마인크래프트에서 코드를 실행하는 것을 잊지 마세요.
 
 ```ghost
 player.onChat("tracks", function () {
@@ -19,4 +19,4 @@ player.onChat("tracks", function () {
 for (let index = 0; index < 4; index++) {
     	
  }
-``` 
+```

@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Cattle
+# 소
 
-## Step 1
-Look at the starter code and try running it. This code allows you to navigate the Agent without counting blocks. Look at the path the Agent needs to take and make sure you finish the coding sequence with correct turns for the Agent. Make sure that the Agent can reach the **gold plate**.  
+## 단계 1
+시작 코드를 살펴보고 실행해 보세요. 이 코드를 사용하면 블록을 세지 않고 에이전트를 이동시킬 수 있습니다. 에이전트가 이동해야 하는 경로를 살펴보고, 에이전트가 올바른 방향으로 회전하도록 코딩 시퀀스를 완성하세요. 에이전트가 **금 판**에 도달할 수 있는지 확인하세요.
 
 ```template
 player.onChat("sheep", function () {
@@ -18,5 +18,4 @@ player.onChat("sheep", function () {
     agent.turn(LEFT_TURN)
 })
 
-``` 
-
+```

@@ -5,20 +5,19 @@
 ### @explicitHints 1
 
 
-# Higher Ground!
+# 높은 곳으로!
 
-## Step 1
-Program the Agent to build a tower with **oak** blocks that is **10** blocks high. First, ensure that the Agent has **64** blocks of **oak plank**  using ``||agent:set block or item||`` command. Program the Agent to place oak planks **forward**, **left** & **right** by using ``||agent:agent place||`` block. The Agent needs to **move up** after placing the blocks.  
-
-#### ~ tutorialhint 
-Try using ``||loops:repeat||`` block and change the number to **10**. 
-
-## Step 2
-Program the Agent to move **down** from the tower and construct **ladder** that is **10** blocks high. You need the ladder so that you can climb up!
+## 단계 1
+에이전트를 프로그램하여 **오크** 블록으로 **10** 블록 높이의 탑을 만드세요. 먼저, 에이전트가 **64** 블록의 **오크 판자**를 가지고 있는지 ``||agent:set block or item||`` 명령을 사용하여 확인하세요. 에이전트가 오크 판자를 **앞쪽**, **왼쪽** 및 **오른쪽**에 놓도록 ``||agent:agent place||`` 블록을 사용하여 프로그램하세요. 에이전트는 블록을 놓은 후에 **위로 이동**해야 합니다.
 
 #### ~ tutorialhint 
-Don't forget to select **64** blocks of **ladder** in the Agent's inventory using ``||agent: agent set block||``, so that the Agent can place the ladder. 
+``||loops:repeat||`` 블록을 사용해 보세요. 숫자를 **10**으로 변경하세요.
 
+## 단계 2
+에이전트를 프로그램하여 탑에서 **아래로 이동**하고 **10** 블록 높이의 **사다리**를 만드세요. 당신이 올라갈 수 있도록 사다리가 필요합니다!
+
+#### ~ tutorialhint 
+에이전트의 인벤토리에서 ``||agent: agent set block||``을 사용하여 **64** 블록의 **사다리**를 선택하는 것을 잊지 마세요. 그래야 에이전트가 사다리를 놓을 수 있습니다.
 
 ```ghost
 player.onChat("tower", function () {
@@ -31,6 +30,4 @@ player.onChat("tower", function () {
     agent.move(DOWN, 10)
 })
 
-``` 
-
-
+```

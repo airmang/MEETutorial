@@ -8,11 +8,11 @@
 
 # Hazing Two
 
-## Step 1
-Step 1 is to do hazing two.  
+## 단계 1
+단계 1은 hazing two를 하는 것입니다.
 
-## Step 2
-When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
+## 단계 2
+완료되면 **Play** 버튼을 눌러 코드를 컴파일합니다. Minecraft에서 코드를 실행하는 것을 잊지 마세요.
 
 ```blocks
 player.onChat("run", function () {
@@ -23,4 +23,4 @@ player.onChat("run", function () {
     }
 })
 
-``` 
+```

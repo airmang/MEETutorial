@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Clear the Foliage!
+# 잎사귀 제거!
 
-## Step 1
-The Agent needs to destroy **8** blocks of foliage moving **forward**. There are **16** rows of foliage that the Agent needs to destroy. The Agent needs to ``||agent:destroy forward||`` and ``||agent:move forward||`` **8** times. 
+## 단계 1
+에이전트는 **앞쪽**으로 이동하면서 **8** 블록의 잎사귀를 파괴해야 합니다. 에이전트가 파괴해야 하는 잎사귀 행은 총 **16**개입니다. 에이전트는 ``||agent:destroy forward||``와 ``||agent:move forward||``를 **8**번 실행해야 합니다.
 #### ~ tutorialhint 
 ```blocks
 player.onChat("foliage", function () {
@@ -32,4 +32,4 @@ player.onChat("foliage", function () {
         }
     }
 })
-``` 
+```

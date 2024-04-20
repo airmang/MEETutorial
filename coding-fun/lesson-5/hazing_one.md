@@ -1,4 +1,3 @@
-
 ### @hideIteration false 
 ### @flyoutOnly 1
 ### @explicitHints 1
@@ -6,11 +5,11 @@
 
 # Hazing One
 
-## Step 1
-Set the ``||agent:agent set block||`` to **tripwire** and set the count to **64**. 
+## 단계 1
+``||agent:agent set block||``을 **tripwire**로 설정하고, 개수를 **64**로 설정합니다.
 
-## Step 2
-Use the ``||loops:while||`` block and drop a condition inside the ``||loops:while||`` block.  
+## 단계 2
+``||loops:while||`` 블록을 사용하고, ``||loops:while||`` 블록 안에 조건을 넣습니다.
 
 #### ~ tutorialhint
 
@@ -23,8 +22,8 @@ player.onChat("hazing", function () {
 })
 
 ``` 
-## Step 3
-Add ``||agent: agent place||`` and ``||agent: agent move||`` blocks inside the ``||loops:while||`` block. 
+## 단계 3
+``||loops:while||`` 블록 안에 ``||agent: agent place||``와 ``||agent: agent move||`` 블록을 추가합니다.
 
 ```blocks
 player.onChat("run", function () {

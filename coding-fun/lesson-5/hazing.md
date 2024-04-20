@@ -7,11 +7,11 @@
 
 # Hazing 
 
-## Step 1
-The Agent needs to set **tripwire** so that wolves won't get in. Set the ``||agent:agent set block||`` to **tripwire** and set the count to **64**. Use the ``||loops:while||`` block and drop a condition inside it.  
+## 단계 1
+Agent는 늑대가 들어오지 않도록 **트립와이어**를 설정해야 합니다. ``||agent:agent set block||``을 **트립와이어**로 설정하고 카운트를 **64**로 설정합니다. ``||loops:while||`` 블록을 사용하고 그 안에 조건을 넣습니다.
 
 #### ~ tutorialhint
-Remember to use **not** in your condition. 
+조건에서 **not**을 사용하는 것을 기억하세요.
 
 ```blocks
 player.onChat("hazing", function () {

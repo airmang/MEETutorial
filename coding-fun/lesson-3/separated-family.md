@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Separated Family!
+# 가족을 찾아서!
 
-## Step 1
-Program the Agent to build a bridge across the chasm in the ice. Ensure that the Agent has **64** blocks of **oak planks** in the inventory. 
+## 단계 1
+에이전트가 얼음의 깊은 틈을 가로질러 다리를 만들도록 프로그램하세요. 에이전트의 인벤토리에 **오크 판자** **64**개가 있는지 확인하세요.
 
 #### ~ tutorialhint 
-Don't forget to use **not** in your **while** loop. Think where you want the Agent to place blocks. 
+**while** 루프에서 **not**을 사용하는 것을 잊지 마세요. 에이전트가 어디에 블록을 놓기를 원하는지 생각해보세요.
 
 
 ```ghost
@@ -25,4 +25,4 @@ player.onChat("family", function () {
     }
 })
 
-``` 
+```

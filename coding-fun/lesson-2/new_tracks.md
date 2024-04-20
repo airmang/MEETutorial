@@ -3,16 +3,16 @@
 ### @explicitHints 1
 
 
-# Program the Agent to move along the turtle tracks!
+# 거북이 트랙을 따라 에이전트를 이동시키세요!
 
-## Step 1
-Move the Agent along the turtle tracks by using an ``||agent: agent move forward||`` block. 
+## 단계 1
+``||agent: agent move forward||`` 블록을 사용하여 거북이 트랙을 따라 에이전트를 이동시키세요.
 
 #### ~ tutorialhint 
-Try using a ``||loops:repeat||`` block to make the code more efficient.
+코드를 더 효율적으로 만들기 위해 ``||loops:repeat||`` 블록을 사용해 보세요.
 
-## Step 2
-When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
+## 단계 2
+완료되면 **Play** 버튼을 눌러 코드를 컴파일하세요. Minecraft에서 코드를 실행하는 것을 잊지 마세요.
 
 ```blocks
 player.onChat("run", function () {
@@ -22,5 +22,4 @@ player.onChat("run", function () {
 for (let index = 0; index < 4; index++) {
     	
  }
-``` 
-
+```

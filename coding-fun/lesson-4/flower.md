@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Make the area pretty!
+# 지역을 예쁘게 만들어봅시다!
 
-## Step 1
-You need to plant **14 dandelions** along **4** sides of the hideaway. The Agent can plant **14** dandelions on one side. 
+## 단계 1
+은신처의 **4**면에 **14개의 민들레**를 심어야 합니다. 에이전트는 한 면에 **14**개의 민들레를 심을 수 있습니다.
 
 #### ~ tutorialhint 
-Don't forget to select a count for ``||agent:agent set block||`` command. 
+``||agent:agent set block||`` 명령어에 대한 카운트를 선택하는 것을 잊지 마세요.
 
 
 ```ghost
@@ -26,4 +26,4 @@ player.onChat("flower", function () {
     }
 })
 
-``` 
+```

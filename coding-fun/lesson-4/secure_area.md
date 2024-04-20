@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Secure the Area
+# 영역 확보
 
-## Step 1
-Program the Agent to construct an **oak fence**. The agent needs to place **oak fence** blocks to the right, destroy obstacles and move forward. The fence should be **17 blocks** long. 
+## 단계 1
+에이전트가 **참나무 울타리**를 건설하도록 프로그램하세요. 에이전트는 오른쪽에 **참나무 울타리** 블록을 배치하고, 장애물을 파괴하고, 앞으로 이동해야 합니다. 울타리는 **17 블록** 길이여야 합니다.
 
 #### ~ tutorialhint
-Ensure that the Agent places blocks on the right and destroys blocks on the left. 
+에이전트가 오른쪽에 블록을 배치하고 왼쪽의 블록을 파괴하는 것을 확인하세요.
 
 ```blocks
 player.onChat("fence", function () {
@@ -29,5 +29,4 @@ player.onChat("fence", function () {
         agent.move(FORWARD, 1)
     }
 })
-``` 
-
+```

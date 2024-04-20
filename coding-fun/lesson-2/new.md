@@ -3,9 +3,9 @@
 ### @explicitHints 1
 
 
-# No code is required for this activity. 
-## Step 1
-No code is required for this activity. 
+# 이 활동에는 코드가 필요하지 않습니다. 
+## 단계 1
+이 활동에는 코드가 필요하지 않습니다. 
 
 ```blocks
 player.onChat("run", function () {

@@ -2,9 +2,8 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
-## Step 1
-Welcome your Agent!
-
+## 첫 번째 단계
+에이전트를 환영하세요!
 
 ```ghost
 loops.onStart()

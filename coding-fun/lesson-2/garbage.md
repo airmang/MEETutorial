@@ -6,10 +6,10 @@
 ### @explicitHints 1
 
 
-# Program the Agent to collect all the garbage!
+# 에이전트를 프로그래밍하여 모든 쓰레기를 수집하세요!
 
-## Step 1
-Use the Agent to clear the turtle tracks by using ``||agent: agent destroy||`` & ``||agent:agent collect all||``blocks. Try using a ``||loops:repeat||`` block to make the code more efficient. When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
+## 단계 1
+``||agent: agent destroy||``와 ``||agent:agent collect all||`` 블록을 사용하여 거북이 트랙을 청소하세요. 코드를 더 효율적으로 만들기 위해 ``||loops:repeat||`` 블록을 사용해 보세요. 완료되면 **Play** 버튼을 눌러 코드를 컴파일하세요. Minecraft에서 코드를 실행하는 것을 잊지 마세요.
 
 
 ```ghost

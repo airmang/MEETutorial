@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Locate the cub!
+# 새끼 곰을 찾아라!
 
-## Step 1
-Program the Agent to dig a path without knowing how far it goes by using ``||loops:while||`` & ``||agent:agent detect||`` commands. The Agent needs to ``||agent:destroy forward & up||`` for you to be able to walk through all the snow! When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
+## 단계 1
+``||loops:while||`` 및 ``||agent:agent detect||`` 명령을 사용하여 에이전트가 얼마나 멀리 가는지 모르는 경로를 파도록 프로그램하세요. 에이전트는 모든 눈을 통해 걸어갈 수 있도록 ``||agent:destroy forward & up||``이 필요합니다! 완료되면 **Play** 버튼을 눌러 코드를 컴파일하세요. 마인크래프트에서 코드를 실행하는 것을 잊지 마세요.
 
 #### ~ tutorialhint 
-Look at the coding snippets shapes when you snap them together. Use ``||agent:agent move forward||``.
+코드 스니펫의 모양을 보고 어떻게 함께 맞추는지 살펴보세요. ``||agent:agent move forward||``를 사용하세요.
 
 ```template
 player.onChat("cub", function () {
@@ -30,4 +30,4 @@ player.onChat("cub", function () {
     }
 })
 
-``` 
+```

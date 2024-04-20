@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Bamboo Border
+# 대나무 경계
 
-## Step 1
-There is a starter code that we prepared for you.  Try running it first. The final goal is to plant bamboo along **4** sides of the panda's plot. 
+## 단계 1
+우리가 준비한 시작 코드가 있습니다. 먼저 실행해보세요. 최종 목표는 판다의 플롯을 따라 **4**면에 대나무를 심는 것입니다.
 
 ```template
 player.onChat("bamboo", function () {

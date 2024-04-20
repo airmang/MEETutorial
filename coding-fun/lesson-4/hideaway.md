@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Bamboo Hideaway
+# 대나무 은신처
 
-## Step 1
-Program the Agent to plant **3** blocks of bamboo on each side of the sand patch. Add an ``||agent: agent turn||``command to make sure the Agent can complete the activity. 
+## 단계 1
+모래 패치의 각 면에 에이전트가 **3**개의 대나무 블록을 심도록 프로그램하세요. 에이전트가 활동을 완료할 수 있도록 ``||agent: agent turn||`` 명령어를 추가하세요.
 
 #### ~ tutorialhint
-There should be 2 **repeat** loops, one nested inside the other.
+2개의 **반복** 루프가 있어야 합니다. 하나는 다른 하나 안에 중첩되어 있어야 합니다.
  
 ```ghost
 player.onChat("bamboo", function () {
@@ -23,5 +23,3 @@ player.onChat("bamboo", function () {
     agent.turn(RIGHT_TURN)
 })
 ```
-
-
