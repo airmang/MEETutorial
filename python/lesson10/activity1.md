@@ -1,7 +1,7 @@
 ### @explicitHints true
 ### @hideIteration true 
 
-# What's that syntax!? 
+# 그 구문이 뭐죠?
 
 ```python
 agent.move(FORWARD, 5)
@@ -27,8 +27,8 @@ while True:
 ```
 
 ## Step 1
-The code below is missing all of its syntax, add the correct syntax in the coding window to make the code run. 
-Then place the matching missing syntax blocks in the world.
+아래 코드에는 구문이 모두 없습니다. 코드 창에 올바른 구문을 추가하여 코드를 실행합니다. 
+그런 다음 일치하는 누락된 구문 블록을 세상에 배치합니다.
 ```python
 for i in range 10
     agent move FORWARD 1
