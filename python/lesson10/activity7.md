@@ -26,4 +26,4 @@ while True:
 ```
 
 ## Step 1
-Make the Agent move forward to the gold block while breaking the melons but leaving the pumpkins alone. 
+에이전트가 멜론을 부수면서 골드 블록까지 앞으로 이동하게 만드세요. 하지만 호박은 그대로 두세요.
