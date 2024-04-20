@@ -26,4 +26,4 @@ while True:
 ```
 
 ## Step 1
-Can you make the Agent move over every block in the area sideways, row by row, without it turning? 
+당신은 에이전트가 회전하지 않고 그 구역의 모든 블록을 옆으로 한 줄 한 줄 이동하게 할 수 있습니까?
