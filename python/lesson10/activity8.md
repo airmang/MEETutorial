@@ -26,10 +26,7 @@ while True:
 ```
 
 ## Step 1
-Delete the quotes (**'**) from the begining and end of each line. 
-Finish the code so that the Agent moves towards the gold block and counts each diamond block it passes over.   
-At the end, when the Agent reaches to the gold block, the Agent should then place the number of diamond blocks it passed over, in front of it, 
-,one by one. These blocks will be automatically stacked by a piston.  
+각 줄의 시작과 끝에서 따옴표(**'**)를 삭제하세요. 에이전트가 골드 블록을 향해 이동하면서 지나가는 각 다이아몬드 블록을 세는 코드를 완성하세요. 마지막에, 에이전트가 골드 블록에 도달하면, 에이전트는 지나간 다이아몬드 블록의 수를 앞에 하나씩 놓아야 합니다. 이 블록들은 피스톤에 의해 자동으로 쌓입니다.
 ```template
 'diamond = 0'
 'for index in range(11):'
