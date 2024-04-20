@@ -26,8 +26,7 @@ while True:
 ```
 
 ## Step 1
-Navigate the Agent through the maze. Write some code to use the colored blocks as forward, left, and right control directions for the Agent to move in.
-Then control the Agent to the end of the maze by standing on the colored blocks. 
+미로를 통해 에이전트를 이동시키세요. 에이전트가 이동할 수 있는 전진, 왼쪽, 오른쪽 제어 방향으로 색상 블록을 사용하는 코드를 작성하세요. 그런 다음 색상 블록 위에 서서 에이전트를 미로의 끝까지 제어하세요.
 
 ### ~ tutorialhint
-Try using a endlessly repeating while loop.
+루프 중에 무한 반복을 사용해 보세요.

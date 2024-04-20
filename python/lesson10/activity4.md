@@ -1,7 +1,7 @@
 ### @explicitHints true
 ### @hideIteration true 
 
-# Spring arrival
+# 봄도착
 
 ```python
 agent.move(FORWARD, 5)
@@ -27,9 +27,9 @@ while True:
 ```
 
 ## Step 1
-In the coding window you have a been given a code that does not work. Delete the quotes (**'**) from the begining and end of each line. 
-This code is supposed to plant flowers on each block of grass by making the Agent move through the area row by row.
-Can you finish the code by adding a conditional and debugging the main loop?
+코드 창에서 작동하지 않는 코드가 주어졌습니다. 각 행의 처음과 끝에서 따옴표(**'**)를 삭제합니다. 
+이 코드는 에이전트가 한 줄로 구역을 이동하도록 함으로써 각 풀 블록에 꽃을 심도록 되어 있습니다.
+조건부를 추가하고 메인 루프를 디버깅하면 코드를 끝낼 수 있습니까?
 ```template
 'for index in range(4):'
 '   for index2 in range(8):'

@@ -1,7 +1,7 @@
 ### @explicitHints true
 ### @hideIteration true 
 
-# Blinding lights. 
+# 블라인드 라이트.
 
 ```python
 agent.move(FORWARD, 5)
@@ -27,8 +27,8 @@ while True:
 ```
 
 ## Step 1
-Make the Agent place the Redstone lamps in its inventory on top of the Redstone blocks while walking forwards on the walkway to the gold block.
+에이전트가 골드 블록으로 가는 통로를 앞으로 걸어가면서 레드스톤 블록 위에 레드스톤 램프를 인벤토리에 배치하도록 합니다.
 
 ### ~ tutorialhint
-Try using a loop.
+루프를 사용해 보세요.
 

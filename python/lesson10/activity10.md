@@ -27,10 +27,11 @@ while True:
 ```
 
 ## Step 1
-You have been given a list. Delete the quotes (**'**) from the begining and end of each line. To find what block type the Agent should stand on, **sort** the list alphabetically
-and get the **second** block from the list. Stand on the correct block type and press the button to teleport the Agent there. 
-To find what block type your player should stand on **reverse**  the list and **pop** the **fourth** block in the list. 
-Get the **sixth** block from the list and stand on that block. 
+## 1단계
+목록이 주어졌습니다. 각 행의 처음과 끝에서 따옴표(**'**)를 삭제합니다. 에이전트가 어떤 블록에 서야 하는지 찾으려면 **sort**를 알파벳 순으로 나열합니다
+그리고 목록에서 **second** 블록을 가져옵니다. 올바른 블록 유형에 서서 버튼을 누르면 에이전트가 그곳으로 순간이동됩니다. 
+플레이어가 **reverse**에 서야 할 블록 유형을 찾으려면 목록의 **reverse**와 목록의 **fourth** 블록을 **pop**에서 찾아야 합니다. 
+목록에서 **sixth** 블록을 가져와 해당 블록 위에 섭니다.
 
 ```template
 'block_list = ["DIAMOND", "ICE", "EMERALD", "STONE", "WOOD", "GOLD", "QUARTZ"]'
