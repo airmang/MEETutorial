@@ -4,11 +4,10 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
+# 모래성!
 
-# Sandcastle!
-
-## Step 1
-Use your coding superpowers to overcome the challenges presented. Remember, there might be a lot of ways to solve them. 
+## 단계 1
+제시된 도전 과제를 극복하기 위해 코딩 초능력을 사용하세요. 해결 방법은 여러 가지일 수 있음을 기억하세요.
 
 ```ghost
 player.onTravelled(SNEAK, function () {

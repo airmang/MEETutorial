@@ -4,13 +4,10 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
+# 로버를 찾아서
 
-# Track Down the Rover 
-
-## Step 1
-Fix this coding snippet. Here is the objective: while **inspecting forward** for a block of **quartz** and **not** finding it, the Agent needs to **move forward**. If it **detects** a **gold** block **down**, it needs to **turn right**. If it detects a **block of iron down**, it needs to **turn left**. In the end the Agent needs to say, "Found the rover!"
-
-
+## 단계 1
+이 코딩 스니펫을 수정하세요. 여기에 목표가 있습니다: **앞쪽**을 **검사**하여 **석영** 블록을 찾지 **못하면**, 에이전트는 **앞으로 이동**해야 합니다. 만약 **아래쪽**에 **금** 블록을 **감지**하면, 에이전트는 **오른쪽으로 회전**해야 합니다. 만약 **아래쪽**에 **철** 블록을 감지하면, 에이전트는 **왼쪽으로 회전**해야 합니다. 마지막에 에이전트는 "로버를 찾았습니다!"라고 말해야 합니다.
 
 
 ```template

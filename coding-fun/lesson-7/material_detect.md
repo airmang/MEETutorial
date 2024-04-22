@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Detecting your first material
+# 첫 번째 재료 감지하기
 
-## Step 1
-The Agent needs to **destroy** and then **collect** the **gold** block. 
+## 단계 1
+에이전트는 **금** 블록을 **파괴**한 다음 **수집**해야 합니다.
 
 ```template
 player.onChat("material", function () {
@@ -32,6 +32,3 @@ player.onChat("1", function () {
     }
 })
 ```
-
-
-

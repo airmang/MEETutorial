@@ -4,11 +4,10 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
+# 깊은 돌
 
-# Deep Stone 
-
-## Step 1
-Fix this coding snippet. Here is the Agent's objective: dig down into the surface until it hits a **gold** block on the **left**. On the way down, the Agent will detect if **stone** is in front of it, and collect it.
+## 단계 1
+이 코딩 스니펫을 수정하세요. 에이전트의 목표는 표면을 파서 **왼쪽**에 **금** 블록을 만날 때까지 내려가는 것입니다. 내려가는 도중에 에이전트는 앞에 **돌**이 있는지 감지하고 수집할 것입니다.
 
 ```template
 player.onChat("dig", function () {

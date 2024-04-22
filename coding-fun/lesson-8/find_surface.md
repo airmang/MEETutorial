@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Reach magma
+# 마그마 도달
 
-## Step 1
-Program the Agent to **move forward**. While the Agent **inspects** block **down** and it is **not magma**, the Agent needs to **move down**. 
+## 단계 1
+에이전트를 프로그래밍하여 **앞으로 이동**하게 합니다. 에이전트가 **아래쪽 블록을 조사**하고 그것이 **마그마가 아닌** 동안, 에이전트는 **아래로 이동**해야 합니다.
 
 
 ```ghost
@@ -19,4 +19,3 @@ player.onChat("magma", function () {
     }
 })
 ```
-

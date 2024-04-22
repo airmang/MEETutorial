@@ -4,20 +4,19 @@
 ### @hideIteration false 
 ### @explicitHints 1
 
+# 예쁜 것들!
 
-# Pretty things!
+## 단계 1
+당신의 임무는 목욕탕 바닥 테두리를 따라 **석영 기둥**과 **청금석** 블록의 교대 패턴을 구성하는 것입니다. 먼저 ``||variable:blockA||``와 ``||variable:blockB||`` 변수를 생성하세요. ``||variable:blockA variable||``를 **석영 블록**으로 설정하고 ``||variable:blockB variable||``를 **청금석 블록**으로 설정하세요. 이 명령들을 ``||loops: on start||`` 블록에 추가하세요.
 
-## Step 1
-Your mission is to to construct the alternating pattern of **quartz pillar** and **lapiz lazuli** blocks along the floor border of the bath. Start by creating ``||variable:blockA||`` and ``||variable:blockB||`` variables. Set the ``||variable:blockA variable||`` to a **block of quartz** and ``||variable:blockB variable||`` to a **lapis lazuli block**. Add the commands to the ``||loops: on start||`` block. 
+## 단계 2
+``||logic: If||`` ``||count||`` = **0**이면, 에이전트는 ``||variable:blockA||``를 설정하고, ``||agent:destroy down||``, ``||agent:place down||``를 수행하고 ``||variable:change the count by 1||``를 해야 합니다. ``||logic: Else||`` 에이전트는 ``||blockB||``를 설정하고 블록을 놓고 ``||change count by -1||``를 해야 합니다.
 
-## Step 2
-``||logic: If||`` ``||count||`` = **0**, then agent needs to set ``||variable:blockA||``, ``||agent:destroy down||``, ``||agent:place down||`` and ``||variable:change the count by 1||``. ``||logic: Else||`` the Agent needs to set ``||blockB||``, place blocks and ``||change count by -1||``.  
+## 단계 3
+에이전트는 한 줄에 블록을 놓아야 하며, 이는 ``||loops: while||`` 에이전트가 **앞쪽**에 블록을 ``||logic:not||`` ``|| detect||``할 때까지 수행됩니다.
 
-## Step 3
-The Agent needs to place blocks in a row ``||loops: while||`` it does ``||logic:not||`` ``|| detect||`` a block **forward**. 
-
-## Step 4
-There are **4** sides of reservoir that the Agent needs to complete, so add a ``||loops: repeat||`` block. Set the ``||count||`` to **0** before sending the Agent to place blocks.
+## 단계 4
+에이전트가 완성해야 할 저수지의 **4**면이 있으므로, ``||loops: repeat||`` 블록을 추가하세요. 에이전트에게 블록을 놓으라고 지시하기 전에 ``||count||``를 **0**으로 설정하세요.
 
 ```template
 let count = 0

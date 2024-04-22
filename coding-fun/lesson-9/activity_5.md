@@ -4,11 +4,10 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
+# 홀로덱 
 
-# Holodeck 
-
-## Step 1
-Use this holodeck to sharpen your skills! 
+## 단계 1
+이 홀로덱을 사용하여 당신의 기술을 더욱 연마하세요!
 
 ```ghost
 player.onChat("3", function () {

@@ -4,14 +4,13 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
+# 시청을 건설해봅시다!
 
-# Build a Town Hall!
-
-## Step 1
-We created a function **plantSeed** for you. It is simply the code that you used for the previous activity. Now drag an ``||player: on chat||`` command into the workspace and name it **run**. Add a ``||loops: repeat||`` loop and click on the **Advanced** section then click **Functions** and drag a``||function:call plantSeed||`` function into your loop. Count how many times the Agent needs to repeat **plantSeed** function. 
+## 단계 1
+우리는 당신을 위해 **plantSeed**라는 함수를 만들었습니다. 이것은 단순히 이전 활동에서 사용한 코드입니다. 이제 작업 공간에 ``||player: on chat||`` 명령을 드래그하고 이를 **run**이라고 이름 지어주세요. ``||loops: repeat||`` 루프를 추가하고 **Advanced** 섹션을 클릭한 다음 **Functions**를 클릭하고 ``||function:call plantSeed||`` 함수를 루프에 드래그하세요. 에이전트가 **plantSeed** 함수를 몇 번 반복해야 하는지 세어보세요.
 
 ### ~ tutorialHint
-Functions live in the **Advanced** section. It is also a good practice to leave notes about the code that's written, like the one that we left for you about functions. 
+함수는 **Advanced** 섹션에 있습니다. 코드에 대한 메모를 남기는 것도 좋은 습관입니다. 우리가 함수에 대해 남겨둔 것처럼 말이죠.
 
 ```template
 /**

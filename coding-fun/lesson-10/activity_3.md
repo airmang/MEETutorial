@@ -4,13 +4,10 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
+# 주변 환경
 
-# Surroundings 
-
-## Step 1
-While **inspecting the block down** that is **not packed ice**, program the Agent to locate, **destroy** and **collect** the following blocks: **iron**, **gold**, **emerald** and **diamond**. 
-
-
+## 단계 1
+**바닥에 있는 블록**이 **팩트 아이스가 아닌 경우**, 에이전트를 프로그래밍하여 다음 블록을 찾아 **파괴하고 수집**하도록 합니다: **철**, **금**, **에메랄드**, **다이아몬드**.
 
 ```ghost
 player.onChat("3", function () {

@@ -4,11 +4,10 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
+# 시청을 지어봅시다!
 
-# Build a Town Hall!
-
-## Step 1
-Use **stone** as your building material, create **3** ``||variable: variables||`` and name them **width**, **length** and **height**; set the ``||variable: variables||`` to the correct parameters. Don't forget to add your variables to the ``||player: on chat||`` command.
+## 단계 1
+건물 재료로 **돌**을 사용하고, **3개**의 ``||variable: 변수||``를 생성하여 **width**, **length**, **height**라고 이름을 붙입니다. 그런 다음 ``||variable: 변수||``를 올바른 매개변수로 설정합니다. ``||player: on chat||`` 명령에 변수를 추가하는 것을 잊지 마세요.
 
 ```ghost
 player.onChat("town_hall", function (length, width, height) {

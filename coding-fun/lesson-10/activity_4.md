@@ -5,11 +5,10 @@
 ### @explicitHints 1
 
 
-# Surroundings 
+# 주변 환경
 
-## Step 1
-Time to work on your skills on the Holodeck!
-
+## 단계 1
+홀로덱에서 기술을 연습할 시간입니다!
 
 
 ```ghost

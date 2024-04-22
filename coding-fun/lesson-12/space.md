@@ -5,11 +5,10 @@
 ### @explicitHints 1
 
 
-# Collaborative activity
+# 협력 활동
 
-## Step 1
-Select the blocks you need to work in space. You will find all the blocks we have used throughout the lessons for you to use!
-
+## 단계 1
+우주에서 작업하기 위해 필요한 블록을 선택하세요. 우리가 수업에서 사용한 모든 블록을 사용할 수 있습니다!
 
 ```ghost
 player.onChat("run", function () {
@@ -38,7 +37,7 @@ player.onChat("run", function () {
         agent.move(FORWARD, 1)
     }
 })
-})
+
 
 ``` 
 

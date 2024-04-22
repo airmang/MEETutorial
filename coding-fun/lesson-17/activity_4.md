@@ -5,11 +5,10 @@
 ### @explicitHints 1
 
 
-# Beets!
+# 비트!
 
-## Step 1
-You are provided with three functions: ``||functions: plantSeed||``, ``||functions: plantSection||`` and ``||functions: checkTurn||``. First, create  a new ``||player: on chat||`` command and add your condition: ``||loops:while||`` the Agent is ``||agent:inspecting the block down||``, and it is not a **gold block**, ``||functions: call||`` the necessary functions. 
-
+## 단계 1
+세 가지 함수: ``||functions: plantSeed||``, ``||functions: plantSection||``, 그리고 ``||functions: checkTurn||``이 제공됩니다. 먼저, 새로운 ``||player: on chat||`` 명령을 만들고 조건을 추가하세요: 에이전트가 ``||agent:inspecting the block down||``을 하고 그것이 **금 블록**이 아닌 동안, 필요한 함수를 ``||functions: call||``하세요.
 
 
 ```template

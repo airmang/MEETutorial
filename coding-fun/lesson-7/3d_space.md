@@ -5,15 +5,15 @@
 ### @explicitHints 1
 
 
-# 3d Space
+# 3D 공간
 
-## Step 1
-To solve this challenge, you need to program the Agent to get to the **gold** block and collect it. The Agent needs to do it first on the ground level and then **move 3 levels up** and repeat the previous procedure.  
+## 단계 1
+이 도전을 해결하려면, 에이전트가 **금** 블록까지 가서 수집하는 프로그램을 작성해야 합니다. 에이전트는 먼저 지상에서 이 작업을 수행한 다음, **3단계 위로 이동**하여 이전 절차를 반복해야 합니다.
 
 ```template
 player.onChat("3D", function () {
     for (let index = 0; index < 2; index++) {
-        
+    }
 })
 ``` 
 ```ghost

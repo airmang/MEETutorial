@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Plant a Seed!
+# 씨앗을 심어봅시다!
 
-## Step 1
-First, interact with the Agent to open its inventory and give it the seeds. Then create ``||player: on chat||`` command and add ``||agent: till forward||`` and ``||agent: place forward||``. 
+## 단계 1
+먼저 에이전트와 상호작용하여 그의 인벤토리를 열고 씨앗을 주세요. 그런 다음 ``||player: on chat||`` 명령을 생성하고 ``||agent: till forward||``와 ``||agent: place forward||``를 추가하세요.
 
 ```ghost
 player.onChat("plantSeed", function () {

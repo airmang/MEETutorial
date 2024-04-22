@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Surroundings 
+# 주변 환경
 
-## Step 1
-While the Agent is **inspecting the block down** and the block is **stone**, the Agent needs to **move forward**. If the Agent does **not** detect a block forward, the Agent needs to **move forward**, otherwise it needs to **turn left**. 
+## 단계 1
+에이전트가 **아래쪽 블록을 조사**하고 그 블록이 **돌**인 동안, 에이전트는 **앞으로 이동**해야 합니다. 에이전트가 앞쪽에 블록을 **감지하지 못하면**, 에이전트는 앞으로 이동해야 하며, 그렇지 않으면 **왼쪽으로 회전**해야 합니다.
 
 
 ```template
@@ -30,4 +30,3 @@ player.onChat("inspect", function () {
     }
 })
 ```
-

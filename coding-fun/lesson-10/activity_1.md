@@ -4,12 +4,10 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
+# 주변 환경
 
-# Surroundings 
-
-## Step 1
-While  **inspecting the block down** that is **packed ice**, **if** the Agent **detects the block right**, it needs to **move forward**. Otherwise it needs to **move right**. 
-
+## 단계 1
+**바닥에 있는 블록**이 **팩트 아이스**인지 **조사하는 동안**, 에이전트가 **오른쪽 블록을 감지하면** **앞으로 이동**해야 합니다. 그렇지 않으면 **오른쪽으로 이동**해야 합니다.
 
 
 ```ghost

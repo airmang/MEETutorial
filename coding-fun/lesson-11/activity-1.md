@@ -5,11 +5,10 @@
 ### @explicitHints 1
 
 
-# Planet visit
+# 행성 방문
 
-## Step 1
-Select the right code to run! You have only one attempt, so be careful!
-
+## 단계 1
+실행할 적절한 코드를 선택하세요! 단 한 번의 시도만 있으니 주의하세요!
 
 
 ```template

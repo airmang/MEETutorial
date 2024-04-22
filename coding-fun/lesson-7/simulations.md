@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Simulation  
+# 시뮬레이션  
 
-## Step 1
-Welcome to Simulations! Program your Agent to collect the gold blocks and destroy obstacles on its way.
+## 단계 1
+시뮬레이션에 오신 것을 환영합니다! 에이전트가 금 블록을 수집하고 그 길에 있는 장애물을 파괴하도록 프로그램하세요.
 
 
 ```template

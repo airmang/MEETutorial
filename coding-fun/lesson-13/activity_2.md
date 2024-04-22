@@ -5,11 +5,10 @@
 ### @explicitHints 1
 
 
-# The Climb
+# 등반
 
-## Step 1
-Your challenge is to ``||mobs:jump||`` really high to climb up to the inaccessible area. 
-
+## 단계 1
+당신의 도전 과제는 접근할 수 없는 지역까지 올라가기 위해 정말 높이 ``||mobs:jump||``하는 것입니다.
 
 ```ghost
 loops.forever(function () {

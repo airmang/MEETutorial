@@ -4,11 +4,10 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
+# 비트!
 
-# Beets!
-
-## Step 1
-It is your time to shine! 
+## 단계 1
+당신이 빛나는 시간입니다!
 
 ```ghost
 blocks.onBlockBroken(GRASS, function () {

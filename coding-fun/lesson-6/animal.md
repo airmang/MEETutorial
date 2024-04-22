@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Collaborative activity
+# 협동 활동
 
-## Step 1
-Select the blocks you need to build the right home for the animals. You will find all the blocks we have used throughout the lessons for you to use!
+## 단계 1
+동물들에게 적합한 집을 지을 수 있는 블록을 선택하세요. 우리가 수업에서 사용한 모든 블록들을 사용할 수 있습니다!
 
 
 ```ghost
@@ -27,4 +27,4 @@ player.onChat("run", function () {
     }
 })
 
-``` 
+```

@@ -5,11 +5,10 @@
 ### @explicitHints 1
 
 
-# Surroundings 
+# 주변 환경
 
-## Step 1
-While the Agent **detects the block down**, it needs to move forward. If the Agent **inspects the block down** and finds **air**, then use ``||player:say||`` command to say **Crater found!**. 
-
+## 단계 1
+에이전트가 **아래쪽 블록을 감지**하는 동안, 앞으로 이동해야 합니다. 에이전트가 **아래쪽 블록을 조사**하고 **공기**를 발견하면, ``||player:say||`` 명령어를 사용하여 **Crater found!**를 말해야 합니다.
 
 
 ```template

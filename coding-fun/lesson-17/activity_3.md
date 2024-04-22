@@ -5,15 +5,14 @@
 ### @explicitHints 1
 
 
+# 비트 심기!
 
-# Planting Beets!
+## 단계 1
 
-## Step 1
-
-Two functions **plantSeed** and **plantSection** are provided for you. Create a new ``||player: on chat||`` command and ``||functions: call plantSection||`` within it. Add an ``||logic: if||`` statement that checks if ``||agent: agent inspects block down||`` .  
-If the block down is ``||blocks: lapis lazuli||``, then the agent needs  to ``||agent: turn right||``, ``||agent: move forward||`` and ``||agent: turn right||``.  
-``||logic: Else||`` the agent ``||agent: inspects the block down||`` and it is ``||blocks: a block of quartz||``, then the agent needs to ``||agent: turn left||``, ``||agent: move forward||`` and ``||agent: turn left||``.  
-Finally ``||functions: call plantSection||``.
+두 개의 함수 **plantSeed**와 **plantSection**이 제공됩니다. 새로운 ``||player: on chat||`` 명령을 만들고 그 안에 ``||functions: call plantSection||``을 추가하세요. ``||agent: agent inspects block down||``을 확인하는 ``||logic: if||`` 문을 추가하세요.  
+만약 아래의 블록이 ``||blocks: lapis lazuli||``라면, 에이전트는 ``||agent: turn right||``, ``||agent: move forward||``, 그리고 ``||agent: turn right||``를 해야 합니다.  
+``||logic: Else||`` 에이전트가 ``||agent: inspects the block down||``을 하고 그것이 ``||blocks: a block of quartz||``라면, 에이전트는 ``||agent: turn left||``, ``||agent: move forward||``, 그리고 ``||agent: turn left||``를 해야 합니다.  
+마지막으로 ``||functions: call plantSection||``를 호출하세요.
 
 #### ~ tutorialhint
 ``` blocks

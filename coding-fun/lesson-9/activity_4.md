@@ -4,12 +4,10 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
+# 로버를 수리하다
 
-# Repair the Rover 
-
-## Step 1
-Fix this coding snippet. Here is the objective: while **inspecting** for a block of **air** and **not** finding it, the Agent needs to **move right**. If the Agent finds the block of **lapis lazuli** **in front**, it needs to **move right**, **turn left**, then **move right**. After that the Agent needs to say, "Found the break!" and **place a block of redstone forward**.
-
+## 단계 1
+이 코딩 스니펫을 수정하세요. 여기에 목표가 있습니다: **공기** 블록을 **검사**하면서 찾지 **못하면**, 에이전트는 **오른쪽으로 이동**해야 합니다. 만약 에이전트가 **앞쪽**에 **청금석** 블록을 찾으면, 에이전트는 **오른쪽으로 이동**한 다음 **왼쪽으로 회전**하고 다시 **오른쪽으로 이동**해야 합니다. 그 후에 에이전트는 "파손된 부분을 찾았습니다!"라고 말하고 **앞쪽**에 **레드스톤 블록을 놓아야** 합니다.
 
 
 ```template

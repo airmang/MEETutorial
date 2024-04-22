@@ -5,11 +5,10 @@
 ### @explicitHints 1
 
 
-# Lava swim
+# 라바 수영
 
-## Step 1
-Your challenge is to ``||player:swim||`` across the lava lake. Try ``||mobs:applying fire resistance||`` to the **nearest player**.
-
+## 단계 1
+당신의 도전 과제는 라바 호수를 가로질러 ``||player:swim||``하는 것입니다. **가장 가까운 플레이어**에게 ``||mobs:applying fire resistance||``을 시도해보세요.
 
 
 ```ghost
