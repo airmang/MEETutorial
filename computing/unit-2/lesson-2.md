@@ -21,6 +21,8 @@
 - 반드시 선택구조를 이용하여 문제를 해결하세요 (사용하지 않으면 0점)
 
 ```ghost
+agent.move(FORWARD, 1)
+agent.turn(LEFT_TURN)
 player.onChat("run", function () {
 	
 })
