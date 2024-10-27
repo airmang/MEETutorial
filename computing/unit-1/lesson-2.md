@@ -1,41 +1,32 @@
-### @hideIteration false 
+### @codeStart players set @s makecode 0
+### @codeStop players set @s makecode 1
+
+### @hideIteration true 
 ### @explicitHints 1
 
 
-# Lesson 2
+# 뛰어넘거나 파괴하거나
 
-## Step 1
-To program your Agent to move, select an ``||player:on chat||`` command and rename it from **run** to **move**. Select an ``||agent: agent move||`` command and drag it inside the ``||player:on chat||`` command.
-
-### ~ tutorialhint
-Don't forget to change the number of steps that you want the Agent to make. 
-
-## Step 3
-Make sure you combine ``||agent: agent move||`` and ``||agent: agent turn||`` commands for your final code. Make sure your Agent follows the orange line. 
-
-## Step 4
-When done, press the **Play** button to compile the code, then go to the Minecraft world, press **T** and type **move**.
-
-## Step 5
-To code your Agent to chop down a tree, select a new ``||player:on chat||`` command. Now you need to add ``||agent: agent move||``, ``||agent: agent destroy||`` commands. Think which direction you want the Agent to move. 
-
-### ~ tutorialhint
-The Agent can move **up**, **down**, **forward**, **back**, **left** or **right**. 
-
-## Step 6
-Don't forget to add ``||agent: agent collect all||`` command to your code to make sure that the Agent collects all the plank blocks. 
-
-## Step 7 
-Now you can practice using these commands in different combinations. 
+## 3번
+- 에이전트를 황금 블록까지 도착하게 하는 코드를 작성하세요.
+- 참나무 울타리를 만날경우 위로 뛰어넘어서 이동하고 참나무 목재를 만날경우 파괴하고 전진하세요.
 
 ```ghost
-player.onChat("run", function () {
-    player.say(":)")
-    agent.teleportToPlayer()
-    agent.turn(LEFT_TURN)
-    agent.move(FORWARD, 1)
-    agent.destroy(FORWARD)
-    agent.collectAll()
-})
-``` 
-
+if (true) {
+	
+} else {
+	
+}
+if (agent.detect(AgentDetection.Block, FORWARD)) {
+	
+}
+while (agent.inspect(AgentInspection.Block, FORWARD) == GRASS) {
+	
+}
+for (let index = 0; index < 4; index++) {
+	
+}
+agent.place(FORWARD)
+agent.destroy(FORWARD)
+agent.collectAll()
+```
