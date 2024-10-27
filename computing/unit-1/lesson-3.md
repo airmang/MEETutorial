@@ -1,27 +1,35 @@
+### @codeStart players set @s makecode 0
+### @codeStop players set @s makecode 1
+
 ### @hideIteration true 
-### @explicitHints true
+### @explicitHints 1
 
 
-# Lesson 3
+# 벽 수리하기
 
-## Step 1
-With everything you have learnt so far, can you code your agent to build a bridge across the water?   
-The gap is 3 blocks wide.   
-When done, press the **Play** button to compile the code, then go to the Minecraft world, press **T** and type **build_a_bridge**.
-
-### ~ tutorialhint
-Don't forget to place **down** when placing blocks!   
-Also make sure your Agent has **building material** in its inventory. The blocks should be in **slot 1**.
-
+## 4번
+- 에이전트를 이용하여 미완성된 집의 벽을 건설하도록 하세요.
+- 가로길이는 6 세로길이는 5 입니다.
+- 반드시 반복문을 사용해서 문제를 해결하세요. (사용안하면 0점)
 
 ```ghost
-player.onChat("run", function () {
-    player.say(":)")
-    agent.teleportToPlayer()
-    agent.turn(LEFT_TURN)
-    agent.move(FORWARD, 1)
-    agent.place(FORWARD)
-})
-``` 
-
-
+if (true) {
+	
+} else {
+	
+}
+if (agent.detect(AgentDetection.Block, FORWARD)) {
+	
+}
+while (agent.inspect(AgentInspection.Block, FORWARD) == GRASS) {
+	
+}
+for (let index = 0; index < 4; index++) {
+	
+}
+agent.place(FORWARD)
+agent.destroy(FORWARD)
+agent.collectAll()
+agent.setItem(GRASS, 1, 1)
+let cnt = 0
+```
