@@ -12,6 +12,8 @@
 - 참나무 울타리를 만날경우 위로 뛰어넘어서 이동하고 참나무 목재를 만날경우 파괴하고 전진하세요.
 
 ```ghost
+agent.move(FORWARD, 1)
+agent.turn(LEFT_TURN)
 if (true) {
 	
 } else {
