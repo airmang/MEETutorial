@@ -43,4 +43,5 @@ agent.destroy(FORWARD)
 agent.collectAll()
 agent.setItem(GRASS, 1, 1)
 player.say(0 - 0 * 0 + 0 / 0)
+let cnt = 0
 ```
