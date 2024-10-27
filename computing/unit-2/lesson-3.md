@@ -13,6 +13,8 @@
 - 피라미드의 꼭대기 층은 항상 블록이 한개여야 합니다.
 
 ```ghost
+agent.move(FORWARD, 1)
+agent.turn(LEFT_TURN)
 player.onChat("run", function () {
 	
 })
