@@ -1,63 +1,45 @@
+### @codeStart players set @s makecode 0
+### @codeStop players set @s makecode 1
+
+### @hideIteration true 
 ### @explicitHints 1
 
-# Lesson 1: Code a Park Fence
 
-## Step 1
-Rename the **run** element of the ``||Player:on chat command||`` block to **park_fence**. 
+# 다이아 캐기
 
-Drag and drop the ``||Agent:agent set active slot||`` code block to the coding Workspace and add it to your  ``||Player:on chat command||`` code block.
+## 8번
+- 에이전트를 이용하여 다이아를 캐세요.
+- 반드시 다이아만 파괴해야 합니다. (다이아 이외의 블록이 파괴될 경우 0점)
+- 다이아를 캐고 난 후에 수집하세요.
+- 다이아를 다 캐고 난 후에 몇개의 다이아를 수집했는지 채팅창에 말하세요.(변수를 사용하여 말하지 않으면 0점)
 
-### ~ tutorialhint
-``` blocks
-player.onChat("park_fence", function () {
-    agent.setSlot(1)
+```ghost
+player.onChat("run", function () {
+	
 })
-```
-## Step 2
-Drag the ``||Loops:repeat [4] times||`` into your ``||Player:on chat command||`` set and change it to **25**.
-
-### ~ tutorialhint
-``` blocks
-player.onChat("park_fence", function () {
-    agent.setSlot(1)
-    for (let index = 0; index < 25; index++) {
-    	
-    }
+if (true) {
+	
+} else {
+	
+}
+if (agent.detect(AgentDetection.Block, FORWARD)) {
+	
+}
+while (agent.inspect(AgentInspection.Block, FORWARD) == GRASS) {
+	
+}
+for (let index = 0; index < 4; index++) {
+	
+}
+agent.place(FORWARD)
+agent.destroy(FORWARD)
+agent.collectAll()
+agent.setItem(GRASS, 1, 1)
+player.say(0 - 0 * 0 + 0 / 0)
+player.onChat("run", function () {
+	
 })
+player.say(agent.getItemCount(1))
+let cnt = 0
+
 ```
-
-## Step 3
-Drag the ``||Agent:agent move [forward]||`` code block to the coding Workspace, add it to your ``||Player:on chat command||`` code block, inside the ``||Loops:repeat [25] times||`` loop, then set it to **1**. 
-
-Drag the ``||Agent:agent place [forward]||`` code block to the coding Workspace, add it to your ``||Player:on chat command||`` code block, inside the ``||Loops:repeats [25] times||`` loop, under the ``||Agent.agent move[forward]||`` code block, then change **forward** to **back**.
-
-### ~ tutorialhint
-``` blocks
-player.onChat("park_fence", function () {
-    agent.setSlot(1)
-    for (let index = 0; index < 25; index++) {
-        agent.move(FORWARD, 1)
-        agent.place(BACK)
-    }
-})
-```
-
-## Step 4
-Drag the ``||Agent:agent turn [left]||`` code block to your ``||PLayer:on chat command||`` code block after the loop. Set it to the direction your Agent needs to turn. In our example, this is **left**. 
-
-### ~ tutorialhint
-``` blocks
-player.onChat("park_fence", function () {
-    agent.setSlot(1)
-    for (let index = 0; index < 25; index++) {
-        agent.move(FORWARD, 1)
-        agent.place(BACK)
-    }
-    agent.turn(LEFT_TURN)
-})
-```
-
-## Step 5
-Test your code. Place your Agent on the starting block and run your code by pressing **T** to open the chat box and type **park_fence**. 
-
-This code will only do one side at a time. Make sure your agent has enough blocks to finish each side before you run! Ask the Unit 3 Lesson 1 NPC for more blocks if you need them.
