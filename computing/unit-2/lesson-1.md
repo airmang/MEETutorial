@@ -14,6 +14,8 @@
 - 반드시 반복문을 사용해서 문제를 해결하세요. (사용안하면 0점)
 
 ```ghost
+agent.move(FORWARD, 1)
+agent.turn(LEFT_TURN)
 player.onChat("run", function () {
 	
 })
