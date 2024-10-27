@@ -1,99 +1,39 @@
+### @codeStart players set @s makecode 0
+### @codeStop players set @s makecode 1
+
+### @hideIteration true 
 ### @explicitHints 1
 
-# Lesson 1: Code a Road Network
 
-## Step 1
-Rename the **run** element of the ``||Player:on chat command||`` block to **road_1**. Select the ``||Blocks:fill with||`` code block and drag it into your ``||Player:on chat command||`` block.
+# 사각형 만들기
 
-### ~ tutorialhint
-``` blocks
-player.onChat("road_1", function () {
-    blocks.fill(
-    GRASS,
+## 5번
+- 에이전트를 이용하여 입력한 값의 변의 길이를 갖는 사각형을 만드세요.
+- square 길이 명령을 이용하여 사각형을 만드세요.
+- 다음 채팅명령어를 입력하면: square 매개변수를 사용하세요.
+- 반드시 반복문을 사용해서 문제를 해결하세요. (사용안하면 0점)
 
-    pos(0, 0, 0),
-    pos(0, 0, 0),
-    FillOperation.Replace
-    )
+```ghost
+player.onChat("run", function () {
+	
 })
+if (true) {
+	
+} else {
+	
+}
+if (agent.detect(AgentDetection.Block, FORWARD)) {
+	
+}
+while (agent.inspect(AgentInspection.Block, FORWARD) == GRASS) {
+	
+}
+for (let index = 0; index < 4; index++) {
+	
+}
+agent.place(FORWARD)
+agent.destroy(FORWARD)
+agent.collectAll()
+agent.setItem(GRASS, 1, 1)
+let cnt = 0
 ```
-
-## Step 2
-Use the drop-down menu to change the type of block from **Grass** to **Gray Concrete**.
-### ~ tutorialhint
-
-``` blocks
-player.onChat("road_1", function () {
-    blocks.fill(
-    GRAY_CONCRETE,
-    pos(0, 0, 0),
-    pos(0, 0, 0),
-    FillOperation.Replace
-    )
-})
-```
-
-## Step 3
-Now open ``||Positions:POSITIONS||`` toolbox drawer and drag the world ``||Positions:[0] [0] [0]||`` code block onto your coding Workspace.
-Drag the world ``||Positions:[0] [0] [0]||`` block and replace the ``||Positions:relative||`` positions block inside the ``||Blocks:fill||`` block.
-
-### ~ tutorialhint
-``` blocks
-player.onChat("road_1", function () {
-    blocks.fill(
-    GRAY_CONCRETE,
-    world(0, 0, 0),
-    pos(0, 0, 0),
-    FillOperation.Replace
-    )
-})
-```
-
-## Step 4
-Drag another ``||Positions:world [0] [0] [0]||`` positions code block from the ``||Positions:POSITIONS||`` drawer and replace the second ``||Positions:relative||`` positions block inside the ``||Blocks:fill with||`` block.
-
-### ~ tutorialhint
-``` blocks
-player.onChat("road_1", function () {
-    blocks.fill(
-    GRAY_CONCRETE,
-    world(0, 0, 0),
-    world(0, 0, 0),
-    FillOperation.Replace
-    )
-})
-```
-
-## Step 5
-We are almost ready to test our code, however there is one more important thing we have to do to make this code work properly. Change the center, or **Y** coordinate, to one number lower. In this example, this will be **68**. Now test your code. If you have coded correctly, you should see a road appear in place of the Grass.
-
-### ~ tutorialhint
-``` blocks
-player.onChat("road_1", function () {
-    blocks.fill(
-    GRAY_CONCRETE,
-    world(-21, 68, -565),
-    world(61, 68, -569),
-    FillOperation.Replace
-    )
-})
-
-```
-
-## Step 6
-Repeat the steps for the second road.
-
-### ~ tutorialhint
-``` blocks
-player.onChat("road_2", function () {
-    blocks.fill(
-    GRAY_CONCRETE,
-    world(-21, 68, -532),
-    world(61, 68, -536),
-    FillOperation.Replace
-    )
-})
-```
-
-## Step 7
-(Extension) With two roads done, build more using the code you have just created. When you are finished, go to the Unit 2 Lesson 1 NPC and ask for some carpet to make road markings with using your agent to place them.
