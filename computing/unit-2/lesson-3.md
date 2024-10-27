@@ -1,86 +1,39 @@
+### @codeStart players set @s makecode 0
+### @codeStop players set @s makecode 1
+
+### @hideIteration true 
 ### @explicitHints 1
 
-# Lesson 3: Code a Row of Houses
 
-## Build Area @unplugged
-We'll be building a house in this building zone in front of the Agency building. Here is an example building. It can be anything!
+# 피라미드 건설하기
 
-![Build area image](https://raw.githubusercontent.com/Mojang/EducationContent/master/computing/unit-2/build_area.png)
+## 7번
+- 에이전트를 이용하여 피라미드를 건설하세요.
+- 매개변수를 이용하여 높이를 입력받고 그 높이에 해당하는 피라미드를 건설하세요.
+- 피라미드의 꼭대기 층은 항상 블록이 한개여야 합니다.
 
-## Step 1
-Manually build a house to your design specification. Do this in the designated construction zone, marked by yellow and black wool.
-
-Press the back arrow to the left to view the example and location of the build area again.
-
-## Step 2
-Rename the **run** element of the ``||Player:on chat command||`` block to **clone_here**. Drag a ``||Blocks:clone from||`` code block to your ``||Player:on chat command||``. 
-
-This code block allows you to clone a designated area of a Minecraft world and place it elsewhere. It's like using copy and paste in other software. You copy an area and then paste it somewhere else in your world.
-
-When you clone, the orientation or direction of the building will be the same as the copied building. So, if the building you copy is facing east, the cloned building will also face east.
-
-#### ~ tutorialhint
-``` blocks
-player.onChat("clone_here.", function () {
-    blocks.clone(
-    pos(0, 0, 0),
-    pos(0, 0, 0),
-    pos(0, 0, 0),
-    CloneMask.Replace,
-    CloneMode.Normal
-    )
+```ghost
+player.onChat("run", function () {
+	
 })
+if (true) {
+	
+} else {
+	
+}
+if (agent.detect(AgentDetection.Block, FORWARD)) {
+	
+}
+while (agent.inspect(AgentInspection.Block, FORWARD) == GRASS) {
+	
+}
+for (let index = 0; index < 4; index++) {
+	
+}
+agent.place(FORWARD)
+agent.destroy(FORWARD)
+agent.collectAll()
+agent.setItem(GRASS, 1, 1)
+player.say(0 - 0 * 0 + 0 / 0)
+let cnt = 0
 ```
-
-## Step 3
-The first two sets of coordinates represent a three-dimensional box with the ``||Blocks:clone from||`` coordinates as one corner and the ``||Blocks:to||`` coordinates as the opposite corner, capturing everything in between like the box in the picture.
-
-The third set of coordinates for the ``||Blocks:into||`` represents the coordinates you want the cloned structure to paste into. 
-
-Let's try it! Find the bottom corner of your model house. In the provided image, we have marked this with Yellow Wool. 
-
-Now create a top and opposite corner, creating an invisible box around the structure. We have done the same with **Yellow Wool** in the image provide. 
-
-## Step 4
-Visit the ``||Positions:POSITIONS||`` toolbox drawer and replace the first two coordinates with ``||Positions:world||`` coordinates. We know from our **Yellow Wool** that each of these coordinates are absolute. 
-
-#### ~ tutorialhint
-``` blocks
-player.onChat("clone_here.", function () {
-    blocks.clone(
-    world(0, 0, 0),
-    world(0, 0, 0),
-    pos(0, 0, 0),
-    CloneMask.Replace,
-    CloneMode.Normal
-    )
-})
-```
-
-## Step 5
-Change the first set of coordinates to the ``||Blocks:clone from||`` set in the code block, and the second set of coordinates to the ``||Blocks:to||`` set below them. Remember, the image below has example coordinates. 
-
-The last coordinates are relative to your player, so your player will become the marker for the place you want to clone the house. You'll need to move your player each time you want to clone another house. 
-
-#### ~ tutorialhint
-``` blocks
-player.onChat("clone_here.", function () {
-    blocks.clone(
-    world(67, 69, -544),
-    world(73, 77, -551),
-    pos(0, 0, 0),
-    CloneMask.Replace,
-    CloneMode.Normal
-    )
-})
-```
-
-
-## Step 6
-Test the code. In Minecraft, move your player to the sky to test your code, paying attention to where the building clones into. 
-
-## Step 7
-Build your row of houses. Stand where you would like to place your first house in your final build and type the command **clone_here**. You will note a house appears. 
-
-Once you're done creating the row in the city, you can now remove your model house.  
-
