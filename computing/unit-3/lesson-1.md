@@ -14,6 +14,8 @@
 - 다이아를 다 캐고 난 후에 몇개의 다이아를 수집했는지 채팅창에 말하세요.(변수를 사용하여 말하지 않으면 0점)
 
 ```ghost
+agent.move(FORWARD, 1)
+agent.turn(LEFT_TURN)
 player.onChat("run", function () {
 	
 })
